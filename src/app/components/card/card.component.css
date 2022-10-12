@@ -1,0 +1,54 @@
+.card-header {
+    text-align: center;
+    font-weight: 600;
+}
+
+.card-body {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.4rem;
+}
+
+.card-body p {
+    text-align: right;
+    margin: .5rem;
+}
+
+.card-title {
+
+    margin: .5rem;
+    padding: .5rem;
+    font-weight: 500;
+
+}
+
+.card-img-top:hover {
+    cursor: crosshair;
+}
+
+.personaje_id {
+    /* background-color: var(--colorAzul2); */
+    border-radius: 50%;
+    padding: .6rem;
+    text-align: left;
+}
+
+.list-group {
+    font-size: 1.6rem;
+}
+
+.item {
+    font-weight: 600;
+}
+
+.muerto {
+    text-decoration: underline .2rem red solid;
+
+}
+
+.vivo {
+    text-decoration: underline .2rem green solid;
+}
